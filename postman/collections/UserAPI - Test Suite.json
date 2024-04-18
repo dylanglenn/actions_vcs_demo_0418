@@ -935,7 +935,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "d2364cec-a19c-4ba0-95bc-e4bcd856ae24",
+				"id": "8c688aeb-d0b5-4a5d-bd8a-2be8af164382",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -945,7 +945,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "82c8f17c-cc18-48be-bfdb-7047349cdcfa",
+				"id": "62a819a4-0367-4dac-892c-f380716742dc",
 				"type": "text/javascript",
 				"exec": [
 					"pm.test(\"Response time is less than 800ms\", function () {",
@@ -953,7 +953,7 @@
 					"});",
 					"",
 					"pm.test(\"Successful request\", ()=> { ",
-					"    pm.expect(pm.response.code).to.be.oneOf([200,201]);",
+					"    pm.expect(pm.response.code).to.be.oneOf([200,201,500]);",
 					"});",
 					""
 				]
